@@ -36,3 +36,5 @@ In this folder, you will find the following:
 
 -	requirements - A text file containing a script which can be run in an anaconda prompt to set up a kernel capable of running
 	all of the notebooks in this project.
+	
+-	cleaned_skin_df - a CSV file containing the cleaned dataframe created by running notebooks 1 and 2.
