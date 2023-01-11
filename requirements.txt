@@ -1,0 +1,35 @@
+Starting from the base environment in one's anaconda launcher, run the code below in order to create a 'deeplearning' environment which
+can run this capstone project from start to finish. It is worth noting that, if one already has a 'deeplearning' environment set up, they may
+wish to choose a different name for their environment which will run this project. the code to run is as follows:
+
+conda create -n deeplearning python=3.8
+
+conda activate deeplearning
+
+conda install numpy=1.19.2 pandas matplotlib jupyter jupyterlab pydot pillow seaborn
+
+conda install conda-forge
+
+conda install -c conda-forge tensorflow=2.3.0
+
+conda install scikit-learn=0.24.1 nltk
+
+conda install -c conda-forge gensim=3.8.3
+
+conda install -c menpo opencv
+
+conda install -c conda-forge glob2
+
+conda install -c anaconda scikit-learn
+
+conda install -c conda-forge pytest-shutil
+
+conda install -c anaconda ipython
+
+conda install -c conda-forge keras
+
+ipython kernel install --name "deeplearning" --user
+
+pip install -U --no-cache-dir gdown --pre
+
+pip install zipfile36
