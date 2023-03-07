@@ -6,7 +6,7 @@ These classification tasks were:
 
 -	Whether or not a lesion suggests an elevated risk of cancer.
 
--	What the precise classification of a lesion is.
+-	What the classification of a lesion is.
 
 Contents
 ------------------------------------------------------------
